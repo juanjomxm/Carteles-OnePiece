@@ -1,0 +1,42 @@
+.luffy{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    display: grid;
+    justify-items: center;
+}
+
+.luffy img{
+    width: 100%;
+}
+
+.nami{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    display: grid;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.nami img{
+    width: 100%;
+}
+
+.sanji{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card2{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    display: grid;
+    justify-items: center;
+}
+
+.card2 img{
+    width: 100%;
+}
