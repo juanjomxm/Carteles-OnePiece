@@ -5,7 +5,7 @@ section{ /* Con esto estilizamos toda la seccion que vendria a ser la misma cart
     margin-top: 60px;
 }
 
-.card{
+.zoro{
     width: 500px;
     height: 500px;
     background: black;
@@ -14,13 +14,34 @@ section{ /* Con esto estilizamos toda la seccion que vendria a ser la misma cart
     overflow: hidden; /* Esto se utiliza para esconder todo lo que se salga cuando ponemos la imagen*/
 }
 
-.card img{ /* Esto es para adaptar la imagen que al cuadro de card*/
+.zoro img{ /* Esto es para adaptar la imagen que al cuadro de card*/
     width: 500px;
     height: 350px;
 }
 
 
-.card p{
+.zoro p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+}
+
+.sanji{
+    width: 500px;
+    height: 500px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.sanji img{
+    width: 500px;
+    height: 350px;
+}
+
+.sanji p{
     display: flex;
     justify-content: center;
     color: white;
@@ -46,4 +67,25 @@ section{ /* Con esto estilizamos toda la seccion que vendria a ser la misma cart
     justify-content: center;
     color: white;
     font-size: larger; 
+}
+
+.franky{
+    width: 500px;
+    height: 500px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.franky img{
+    width: 500px;
+    height: 350px;
+}
+
+.franky p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: larger;
 }
