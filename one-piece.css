@@ -1,4 +1,4 @@
-section{ /* Con esto estilizamos toda la seccion que vendria a ser la misma carta*/
+section{ 
     width: 100%;
     display: flex;
     justify-content: center;
