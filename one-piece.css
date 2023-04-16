@@ -9,12 +9,11 @@ section{ /* Con esto estilizamos toda la seccion que vendria a ser la misma cart
     width: 500px;
     height: 500px;
     background: black;
-    /*background-image: url("https://codigoespagueti.com/wp-content/uploads/2022/06/El-manga-de-One-Piece-entrara-en-pausa-durante-un-mes-muy-pronto.jpg");  Esto es para poner una imagen de fondo en la tarjeta*/
     border-radius: 20px;
-    overflow: hidden; /* Esto se utiliza para esconder todo lo que se salga cuando ponemos la imagen*/
+    overflow: hidden; 
 }
 
-.zoro img{ /* Esto es para adaptar la imagen que al cuadro de card*/
+.zoro img{
     width: 500px;
     height: 350px;
 }
