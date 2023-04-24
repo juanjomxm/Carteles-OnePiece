@@ -2,8 +2,59 @@ section{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 20px;
 }
+
+button{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+.luffy{
+    width: 500px;
+    height: 500px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden; 
+    margin: 40px;
+}
+
+.luffy img{ 
+    width: 100%;
+    height: 350px;
+}
+
+
+.luffy p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+}
+
+#boton-luffy{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+#historia-luffy{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    width: 400px; 
+    color: black;
+    font-size: 20px;
+}
+
 
 .zoro{
     width: 500px;
@@ -13,8 +64,8 @@ section{
     overflow: hidden; 
 }
 
-.zoro img{
-    width: 500px;
+.zoro img{ 
+    width: 100%;
     height: 350px;
 }
 
@@ -25,6 +76,19 @@ section{
     color: white;
     font-size: larger;
 }
+
+#historia-zoro{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: column;
+    width: 500px; 
+    margin-right: 50px;
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+}
+
 
 .sanji{
     width: 500px;
@@ -47,7 +111,19 @@ section{
     font-size: larger;
 }
 
-.usopp{
+#historia-sanji{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: column;
+    width: 500px; 
+    margin-right: 50px;
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+.jinbe{
     width: 500px;
     height: 500px;
     background: black;
@@ -56,9 +132,44 @@ section{
     margin-left: 20px;
 }
 
+.jinbe img{
+    width: 500px;
+    height: 350px;
+}
+
+.jinbe p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+}
+
+#historia-jinbe{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: column;
+    width: 500px; 
+    margin-right: 50px;
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+.usopp{
+    width: 500px;
+    height: 500px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
 .usopp img{
     width: 500px;
     height: 350px;
+    display: flex;
+    z-index: 3;
 }
 
 .usopp p{
@@ -66,6 +177,53 @@ section{
     justify-content: center;
     color: white;
     font-size: larger; 
+}
+
+#historia-usopp{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: column;
+    width: 500px; 
+    margin-right: 50px;
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+.nico-robin{
+    width: 500px;
+    height: 500px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.nico-robin img{
+    width: 500px;
+    height: 350px;
+    display: flex;
+    z-index: 3; 
+}
+
+.nico-robin p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: larger; 
+}
+
+#historia-robin{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: column;
+    width: 500px; 
+    margin-right: 50px;
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
 }
 
 .franky{
@@ -87,4 +245,114 @@ section{
     justify-content: center;
     color: white;
     font-size: larger;
+}
+
+#historia-franky{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: column;
+    width: 500px; 
+    margin-right: 50px;
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+.brook{
+    width: 500px;
+    height: 500px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.brook img{
+    width: 500px;
+    height: 350px;
+}
+
+.brook p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+}
+
+#historia-brook{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: column;
+    width: 500px; 
+    margin-right: 50px;
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+.nami{
+    width: 500px;
+    height: 500px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.nami img{
+    width: 500px;
+    height: 350px;
+}
+
+.nami p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+}
+
+#historia-nami{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: column;
+    width: 500px; 
+    margin-right: 50px;
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+.chopper{
+    width: 500px;
+    height: 500px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.chopper img{
+    width: 500px;
+    height: 350px;
+}
+
+.chopper p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+}
+
+#historia-chopper{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: column;
+    width: 500px; 
+    margin-right: 50px;
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
 }
